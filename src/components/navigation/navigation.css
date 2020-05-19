@@ -1,0 +1,33 @@
+.navigation {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navigation li {
+  float: right;
+}
+
+.navigation a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  width: 125px;
+  font-size: 20px;
+  color: #1f2433;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #1f2433;
+  color: #c4c6d8;
+}

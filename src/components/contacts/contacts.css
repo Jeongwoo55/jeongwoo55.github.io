@@ -1,0 +1,24 @@
+.contacts {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: slategrey;
+  color: #1f2433;
+}
+
+.contacts li,
+.contacts a {
+  font-size: 24px;
+  margin: 0 5px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: #aaaaaa;
+  display: inline-block;
+}
+
+.contacts p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: black;
+}
