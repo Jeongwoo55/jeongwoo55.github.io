@@ -1,24 +1,31 @@
 .contacts {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   background: slategrey;
   color: #1f2433;
 }
 
-.contacts li,
+.contacts ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.contacts li {
+  display: inline-block;
+}
+
 .contacts a {
+  text-align: center;
   font-size: 24px;
-  margin: 0 5px;
-  padding-top: 5px;
+  padding: 10px 5px;
   text-decoration: none;
   color: #aaaaaa;
   display: inline-block;
 }
 
-.contacts p {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  color: black;
+.contacts a:hover {
+  color: #1f2433;
 }
