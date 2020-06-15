@@ -7,17 +7,11 @@ import Contacts from "./components/contacts/contacts.js";
 
 function App() {
   return (
-    // <div className="App">
-    //   <Navigation />
-    //   <Landing id="home"/>
-    //   <About id="about" />
-    //   <Contacts id="contacts"/>
-    // </div>
     <div className="App">
-      <Navigation />
-      <Landing id="home"/>
-      <About id="about" />
-      <Contacts id="contacts"/>
+      {/* <Navigation /> */}
+      <Landing />
+      <About />
+      <Contacts />
     </div>
   );
 }

@@ -48,7 +48,7 @@ const Contacts = () => {
           </a>
         </li>
       </ul>
-      <p>Last updated May 19th, 2020</p>
+      <p>Last updated June 15th, 2020</p>
     </div>
   );
 };

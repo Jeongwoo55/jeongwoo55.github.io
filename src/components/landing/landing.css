@@ -6,18 +6,23 @@
   background-color: #576993;
 }
 
+.landing h1,
+.landing h2 {
+  top: 70vh;
+}
+
 .landing h1 {
-  padding: 0 auto;
   font-size: 64px;
   font-weight: bold;
   color: white;
-  top: 70vh;
 }
 
 .landing h2 {
-  padding: 0 auto;
-  top: 70vh;
   color: #c4c6d8;
 }
 
-
+.landing #icon {
+  top: 75vh;
+  color: #c4c6d8;
+  font-size: 56px;
+}

@@ -31,3 +31,10 @@
   background-color: #1f2433;
   color: #c4c6d8;
 }
+
+@media (pointer:coarse) {
+  .navigation a:hover {
+    background-color: transparent;
+    color: #1f2433;
+  }
+}
