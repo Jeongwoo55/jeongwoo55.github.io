@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Protrait from "./portrait.jpg";
+import Protrait from "./portrait.webp";
 
 const About = () => {
   return (
