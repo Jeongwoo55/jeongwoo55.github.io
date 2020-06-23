@@ -1,9 +1,27 @@
 .landing {
   height: 100vh;
   text-align: center;
-  background-image: url("./background.webp");
+  background-image: url("../../images/original/background.webp");
   background-size: cover;
   background-color: #576993;
+}
+
+@media (max-width: 1440px) {
+  .landing {
+    background-image: url("../../images/responsive/background-large.webp");
+  }
+}
+
+@media (max-width: 991px) {
+  .landing {
+    background-image: url("../../images/responsive/background-medium.webp");
+  }
+}
+
+@media (max-width: 479px) {
+  .landing {
+    background-image: url("../../images/responsive/background-small.webp");
+  }
 }
 
 .landing h1,

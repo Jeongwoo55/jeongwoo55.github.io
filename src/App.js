@@ -5,6 +5,8 @@ import Landing from "./components/landing/landing.js";
 import About from "./components/about/about.js";
 import Contacts from "./components/contacts/contacts.js";
 
+
+
 function App() {
   return (
     <div className="App">

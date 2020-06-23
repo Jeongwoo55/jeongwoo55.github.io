@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
-import Protrait from "./portrait.webp";
+import Portrait from "../../images/original/portrait.webp";
+import PortraitLarge from "../../images/responsive/portrait-large.webp";
+import PortraitMedium from "../../images/responsive/portrait-medium.webp";
+import PortraitSmall from "../../images/responsive/portrait-small.webp";
 
 const About = () => {
   return (
@@ -18,9 +21,11 @@ const About = () => {
       </div>
       <div>
         <img
-          src={Protrait}
+          src={Portrait}
           alt="Portrait"
           className="portrait"
+          srcset={PortraitLarge + " 2160w, " + PortraitMedium + " 1080w, " + PortraitSmall + " 768w"}
+          size="40vw"
         />
       </div>
     </div>
