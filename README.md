@@ -1,3 +1,5 @@
+A simple website for myself: https://www.jeongwoochoi.me/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
