@@ -9,6 +9,7 @@ import { ReactComponent as DevpostIcon } from "./devpost.svg";
 const Contacts = () => {
   return (
     <div className="contacts">
+      <a name="contacts" href="# " style={{ position: "relative", top: -80 }}> </a>
       <h2>Contacts</h2>
       <ul>
         <li>

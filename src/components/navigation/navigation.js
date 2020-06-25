@@ -11,11 +11,11 @@ const Navigation = () => {
               Contacts
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href={process.env.PUBLIC_URL + "#portfolio"} draggable="false">
               Portfolio
             </a>
-          </li>
+          </li> */}
           <li>
             <a href={process.env.PUBLIC_URL + "#about"} draggable="false">
               About

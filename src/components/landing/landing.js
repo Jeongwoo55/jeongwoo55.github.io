@@ -8,7 +8,9 @@ const Landing = () => {
       <h2>Hello, my name is</h2>
       <h1>Jeongwoo Choi</h1>
       <div id="icon">
-        <ExpandMoreIcon fontSize="inherit" />
+        <a href="#about">
+          <ExpandMoreIcon fontSize="inherit" />
+        </a>
       </div>
     </div>
   );

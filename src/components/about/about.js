@@ -8,6 +8,7 @@ import PortraitSmall from "../../images/responsive/portrait-small.webp";
 const About = () => {
   return (
     <div className="about">
+      <a name="about" href="# " style={{ position: "relative", top: -80 }}> </a>
       <div>
         <h2>About me</h2>
         <p>
@@ -24,7 +25,14 @@ const About = () => {
           src={Portrait}
           alt="Portrait"
           className="portrait"
-          srcset={PortraitLarge + " 2160w, " + PortraitMedium + " 1080w, " + PortraitSmall + " 768w"}
+          srcset={
+            PortraitLarge +
+            " 2160w, " +
+            PortraitMedium +
+            " 1080w, " +
+            PortraitSmall +
+            " 768w"
+          }
           size="40vw"
         />
       </div>

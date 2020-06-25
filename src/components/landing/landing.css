@@ -44,3 +44,12 @@
   color: #c4c6d8;
   font-size: 56px;
 }
+
+.landing a {
+  color: #c4c6d8;
+  text-decoration: none;
+}
+
+.landing a:hover {
+  color: #ffffff;
+}
