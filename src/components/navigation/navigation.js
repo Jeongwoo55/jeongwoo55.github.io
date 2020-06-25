@@ -7,22 +7,22 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <a href={process.env.PUBLIC_URL + "#contacts"} draggable="false">
+            <a href={process.env.PUBLIC_URL + "#contacts"}>
               Contacts
             </a>
           </li>
           {/* <li>
-            <a href={process.env.PUBLIC_URL + "#portfolio"} draggable="false">
+            <a href={process.env.PUBLIC_URL + "#portfolio"}>
               Portfolio
             </a>
           </li> */}
           <li>
-            <a href={process.env.PUBLIC_URL + "#about"} draggable="false">
+            <a href={process.env.PUBLIC_URL + "#about"}>
               About
             </a>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + "/"} draggable="false">
+            <a href={process.env.PUBLIC_URL + "/"}>
               Home
             </a>
           </li>

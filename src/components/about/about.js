@@ -8,7 +8,9 @@ import PortraitSmall from "../../images/responsive/portrait-small.webp";
 const About = () => {
   return (
     <div className="about">
-      <a name="about" href="# " style={{ position: "relative", top: -80 }}> </a>
+      <a name="about" href="# " style={{ position: "relative", top: -80 }}>
+        {" "}
+      </a>
       <div>
         <h2>About me</h2>
         <p>
@@ -17,7 +19,10 @@ const About = () => {
           for high school students at the University of North Texas. I have a
           strong interest in hardware-related projects and hackathons. I also
           enjoy playing the violin and doing{" "}
-          <a href="https://www.instagram.com/jeongwoo.photos/">photography</a>.
+          <a href="https://www.instagram.com/jeongwoo.photos/" target="_blank">
+            photography
+          </a>
+          .
         </p>
       </div>
       <div>
