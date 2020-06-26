@@ -2,7 +2,7 @@
   "name": "jeongwoochoi.me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.jeongwoochoi.me/",
+  "homepage": "https://jeongwoochoi.me/",
   "dependencies": {
     "@material-ui/core": "^4.9.14",
     "@material-ui/icons": "^4.9.1",
