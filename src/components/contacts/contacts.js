@@ -49,7 +49,7 @@ const Contacts = () => {
           </a>
         </li>
       </ul>
-      <p>Last updated June 25th, 2020</p>
+      <p>Last updated November 24th, 2020</p>
     </div>
   );
 };
