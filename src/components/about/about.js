@@ -19,7 +19,7 @@ const About = () => {
           for high school students at the University of North Texas. I have a
           strong interest in hardware-related projects and hackathons. I also
           enjoy playing the violin and doing{" "}
-          <a href="https://www.instagram.com/jeongwoo.photos/" target="_blank">
+          <a href="https://www.instagram.com/jeongwoo.photos/" rel="noopener noreferrer" target="_blank">
             photography
           </a>
           .

@@ -14,7 +14,7 @@ const Contacts = () => {
       <ul>
         <li>
           <a
-            href="mailto: JeongwooChoi@my.unt.com"
+            href="mailto: jon@jeongwoo.xyz"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +49,7 @@ const Contacts = () => {
           </a>
         </li>
       </ul>
-      <p>Last updated November 24th, 2020</p>
+      <p>Last updated November 26th, 2020</p>
     </div>
   );
 };
