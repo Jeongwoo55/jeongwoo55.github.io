@@ -1,4 +1,4 @@
-A simple website for myself: https://jeongwoochoi.me/
+A simple website for myself: https://jeongwoo.xyz/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
